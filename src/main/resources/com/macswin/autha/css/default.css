@@ -1,0 +1,146 @@
+.root{
+    -primary-color:#248232;
+    -secondary-color:#2ba84a;
+    -primary-dark:#040f0f;
+    -secondary-dark:#2d3a3a;
+    -light-background:#fcfffc;
+
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url("../fonts/PoppinsReg.ttf");
+}
+@font-face {
+
+    src: url("/fonts/PoppinsSemiBold.ttf");
+}
+
+
+.logo{
+  -fx-background-color: -secondary-dark;
+}
+
+.header{
+    -fx-background-color: -primary-color;
+}
+
+.navigation{
+    -fx-background-color: -secondary-dark;
+}
+
+#nav-button {
+     -fx-background-color: -primary-color;
+}
+
+#settings-button {
+     -fx-background-color: -primary-color;
+}
+
+#account-button {
+     -fx-background-color: -primary-color;
+}
+
+#account-button .label {
+     -fx-font-family: "Poppins SemiBold";
+     -fx-text-fill: white;
+      -fx-font-size: 16px;
+}
+
+#account-button .arrow {
+    -fx-background-color: transparent;
+}
+
+#account-button .ikonli-font-icon {
+     -fx-icon-code: "fas-user";
+     -fx-icon-color: white;
+     -fx-icon-size: 18px;
+ }
+
+#settings-button .ikonli-font-icon {
+     -fx-icon-code: "fas-cog";
+     -fx-icon-color: white;
+     -fx-icon-size: 20px;
+ }
+
+#nav-button .ikonli-font-icon {
+     -fx-icon-code: "fas-bars";
+     -fx-icon-color: grey;
+     -fx-icon-size: 20px;
+ }
+
+#navigation-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+#navigation-scroll{
+  -fx-background-color: -secondary-dark;
+}
+
+.menu-container{
+    -fx-background-color: -secondary-dark;
+}
+
+.drawer-box{
+  -fx-background-color: -secondary-dark;
+}
+
+.navigation-menu .label{
+    -fx-font-family: "Poppins SemiBold";
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 5,5,5,5;
+}
+
+.navigation-menu .ikonli-font-icon {
+     -fx-icon-color: grey;
+     -fx-icon-size: 20px;
+ }
+
+ .navigation-menu .ikonli-font-icon: hover {
+      -fx-icon-color: white;
+      -fx-icon-size: 20px;
+  }
+
+.navigation-menu: hover{
+    -fx-background-color: -secondary-color;
+}
+
+
+.navigation-menu: focused{
+    -fx-background-color: -secondary-color;
+}
+
+.navigation-menu  .arrow {
+    -fx-background-color: transparent;
+}
+
+
+.navigation-item{
+    -fx-font-family: "Poppins SemiBold";
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 8,8,8,8;
+}
+
+.navigation-item .ikonli-font-icon {
+     -fx-icon-color: grey;
+     -fx-icon-size: 20px;
+ }
+
+ .navigation-item .ikonli-font-icon: hover {
+      -fx-icon-color: white;
+      -fx-icon-size: 20px;
+  }
+
+.navigation-item: hover{
+ -fx-background-color: -secondary-color;
+}
+
+.navigation-item: focused{
+ -fx-background-color: -secondary-color;
+}
+
+.context-menu {
+    -fx-background-color: -secondary-dark;
+}
